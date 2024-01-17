@@ -2,13 +2,13 @@ import { c as create_ssr_component, e as escape, d as add_attribute, h as add_st
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 const firebaseConfig = {
-  apiKey: "AIzaSyBAfx7iG-t1vLVBIDNeF8yNxWCHLOKc49k",
-  authDomain: "restaurante0a1.firebaseapp.com",
-  projectId: "restaurante0a1",
-  storageBucket: "restaurante0a1.appspot.com",
-  messagingSenderId: "829796485637",
-  appId: "1:829796485637:web:a4d7825e55f4dc838a2a6c",
-  measurementId: "G-3C2NQYS3JV"
+  apiKey: "AIzaSyBZrq_zNB3XkmmyJz1PHtx2dNJGV_ZtCFM",
+  authDomain: "p0000-ayc.firebaseapp.com",
+  projectId: "p0000-ayc",
+  storageBucket: "p0000-ayc.appspot.com",
+  messagingSenderId: "494735370068",
+  appId: "1:494735370068:web:5b503be763bc3aa7aecac1",
+  measurementId: "G-P079JPQGBL"
 };
 const app = initializeApp(firebaseConfig);
 getFirestore(app);

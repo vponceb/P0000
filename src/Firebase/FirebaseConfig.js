@@ -8,13 +8,13 @@ import { getFirestore, doc, setDoc  } from "firebase/firestore";
 
 // Configuración de Firebase de su aplicación web
 const firebaseConfig = {
-    apiKey: "AIzaSyBAfx7iG-t1vLVBIDNeF8yNxWCHLOKc49k",
-    authDomain: "restaurante0a1.firebaseapp.com",
-    projectId: "restaurante0a1",
-    storageBucket: "restaurante0a1.appspot.com",
-    messagingSenderId: "829796485637",
-    appId: "1:829796485637:web:a4d7825e55f4dc838a2a6c",
-    measurementId: "G-3C2NQYS3JV"
+    apiKey: "AIzaSyBZrq_zNB3XkmmyJz1PHtx2dNJGV_ZtCFM",
+    authDomain: "p0000-ayc.firebaseapp.com",
+    projectId: "p0000-ayc",
+    storageBucket: "p0000-ayc.appspot.com",
+    messagingSenderId: "494735370068",
+    appId: "1:494735370068:web:5b503be763bc3aa7aecac1",
+    measurementId: "G-P079JPQGBL"
 };
 
 // Initialize Firebase
@@ -32,13 +32,10 @@ export async function GrabarRegistro(Registro) {
         
         const IdDocumento = new Date().toLocaleString("sv-SE");
         // await setDoc(doc(db, "Estudio", '' + IdDocumento.toLocaleString("sv-SE")), Registro);
-        await setDoc(doc(db, "Estudio", ''+ IdDocumento), Registro);
+        await setDoc(doc(db, "Estudio", `${IdDocumento}`), Registro);
 
 // Declaración de cookie para indicar que ya fue respondida la encuesta
         document.cookie = "Respondida=SI; max-age=60; path=/"
-
-        localStorage.setItem("Respondio", "SI");
-        
         
     } catch (e) {
         //alert("ERROR AL GRABAR:" + error(e));    

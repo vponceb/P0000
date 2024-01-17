@@ -124,7 +124,7 @@
   },
   "src/routes/Documentos_de_PageRaiz/img/Logo.png": {
     "file": "_app/immutable/assets/Logo.T1negyr0.png",
-    "src": "src/routes/Documentos_de_PageRaiz/img/Logo.png"
+    "src": "src/routes/califica/img/Logo.png"
   },
   "src/routes/Documentos_de_PageRaiz/img/Pollo_Brasa.avif": {
     "file": "_app/immutable/assets/Pollo_Brasa.ip7-fWrk.avif",
@@ -175,6 +175,6 @@
   },
   "src/routes/califica/img/Logo.png": {
     "file": "_app/immutable/assets/Logo.T1negyr0.png",
-    "src": "src/routes/Documentos_de_PageRaiz/img/Logo.png"
+    "src": "src/routes/califica/img/Logo.png"
   }
 }
