@@ -1,0 +1,25 @@
+{
+	"name": "p0000",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/adapter-netlify": "^3.0.2",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"firebase": "^10.7.1",
+		"sass": "^1.69.7",
+		"svelte": "^4.2.7",
+		"svelte-reveal": "^0.7.0",
+		"vite": "^5.0.3"
+	},
+	"type": "module",
+	"dependencies": {
+		"svelte-sortable-items": "^0.0.5"
+	}
+}
