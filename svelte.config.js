@@ -20,5 +20,5 @@ export default {
         })
     },
     // Para SCSS
-    preprocess: [vitePreprocess()],
+    preprocess: [vitePreprocess()]
 };
