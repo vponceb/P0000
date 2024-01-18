@@ -98,7 +98,7 @@ function Valida_Text(Columna, Valor, Elemento_0, Elemento_Parent_Contenedor) {
 function Valida_Radio(Columna, Valor, Elemento_0, Elemento_Parent_Contenedor) {
     if (Valor === "") {
         Elemento_Parent_Contenedor.style.backgroundColor = Formulario_Color_Fondo_Resaltado;
-        // Elemento_0.focus();
+        Elemento_0.focus();
         Elemento_0.scrollIntoView({ block: "center" });
         alert(`Favor, responda correctamente la pregunta ${Columna}`);
 
